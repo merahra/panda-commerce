@@ -1,9 +1,11 @@
 .container{
     margin-bottom: 100px;
+
 }
 .orange-bg{
     background-color: #fceae8;
     border-radius: 10px;
+
 }
 .carousel-item{
     padding: 20px 40px;
@@ -19,6 +21,10 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+.cat-1, .cat-2, .cat-3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
 .cat-1{
     background-color: orange;
 }
@@ -27,4 +33,27 @@
 }
 .cat-3{
     background-color: blue;
+}
+.categorie h1{
+    color: white;
+}
+.categorie img{
+    width: 100px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+#subscribe{
+    height: 380px;
+}
+#subscribe h6{
+    color: grey;
+}
+footer{
+    text-align: center;
 }
